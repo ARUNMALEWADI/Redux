@@ -4,6 +4,10 @@ if(action.type==="Increament")
 {   return {counter:state.counter+2}
 
 }
+if(action.typ1==="Increase")
+{
+    return { counter:state.counter+action.amount}
+}
 if(action.type==="Decreament")
 { return {counter:state.counter-2}
 
